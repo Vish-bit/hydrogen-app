@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 :root {
   --aside-width: 400px;
   --cart-aside-summary-height-with-discount: 300px;
@@ -420,9 +422,9 @@ button.reset:hover:not(:has(> *)) {
 */
 .collection-description {
   margin-bottom: 1rem;
-  max-width: 95%;
+  max-width: 100%;
   @media (min-width: 45em) {
-    max-width: 600px;
+    max-width: 100%;
   }
 }
 
